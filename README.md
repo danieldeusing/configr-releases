@@ -22,9 +22,12 @@ Each updater bundle ships a `.sig` beside it, and every release carries a
 
 ## Signing
 
-The builds are **not** code-signed, so macOS and Windows will warn on first
-launch. Installing through Homebrew avoids the macOS prompt entirely — the
-install guide covers each platform.
+The builds are **not** code-signed, so macOS and Windows warn on first launch.
+Homebrew does not avoid this — it applies the quarantine attribute like any
+other download. The install guide covers the extra step per platform.
+
+The penalty is first-launch only: in-app updates replace the bundle without
+re-quarantining it.
 
 Update bundles *are* signed, with a key separate from OS code signing. The app
 verifies that signature before applying an update, so an update cannot be
