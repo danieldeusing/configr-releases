@@ -21,14 +21,14 @@
     "route would have to hard-code WiX's 'PFiles/Configr' administrative",
     "install layout and would silently extract nothing if Tauri changed it."
   ],
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Desktop app that shows what your AI coding agents are configured to do",
   "homepage": "https://github.com/danieldeusing/configr-releases",
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/danieldeusing/configr-releases/releases/download/v0.2.4/Configr_0.2.4_x64-setup.exe#/dl.7z",
-      "hash": "e3159b0799d2927d1499da97f13d6e033d5b59eeccc7de3663e60bf1469eca6d"
+      "url": "https://github.com/danieldeusing/configr-releases/releases/download/v0.2.5/Configr_0.2.5_x64-setup.exe#/dl.7z",
+      "hash": "6ff7c25fda6dad77ae1a032d703a23c85a5f2bb1a489f0e4aeff961037b5735b"
     }
   },
   "post_install": "Remove-Item \"$dir\\`$*\", \"$dir\\uninst*\" -Force -Recurse -ErrorAction Ignore",
