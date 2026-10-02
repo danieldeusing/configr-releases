@@ -8,6 +8,8 @@ shows you what each one actually loads: skills, agents, slash commands, hooks,
 MCP servers, plugins and instruction files, each with where it came from and
 whether it is really in effect.
 
+<img src="docs/configr-preview.gif" width="100%" alt="The Configr tour: what five coding agents load from a project, then the capability browser, instruction files, plugins, marketplaces, your own registry and settings">
+
 This repository holds **built artifacts only**. Everything here is produced by
 CI; nothing is authored here and nothing here is source.
 
