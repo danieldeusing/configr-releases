@@ -116,4 +116,6 @@ Windows builds are **not** signed. Linux needs no signing.
 
 ---
 
-Configr is © Daniel Deusing. Source is not public.
+Configr is © Daniel Deusing. It is free to download, install and use, but it is not
+open source and its source is not public. Bugs and questions: open an
+[issue](https://github.com/danieldeusing/configr-releases/issues).
